@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Portfolio Name</title>
+    <meta name="description"
+        content="Portfolio de Samira, développeuse Front-End. Découvrez mes projets React et JavaScript, mes compétences en intégration web et mon parcours.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" async>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Samira</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">A propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contactez-moi</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- main banner -->
+        <section class="bgimage" id="home">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                        <h1 class="hero_title">Salut, moi c'est Samira</h1>
+                        <p class="hero_desc">Je suis Développeuse web junior</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about section-->
+        <section id="about">
+            <div class="container mt-4 pt-4">
+                <h2 class="text-center">A propos</h2>
+                <div class="row mt-4">
+                    <div class="col-lg-4">
+                        <img src="images/samira.jpg" alt="Portrait de Samira" class="profile-img">
+                    </div>
+
+                    <div class="col-lg-8">
+                        <p> Développeuse Front-End passionnée par l'intersection entre le design intuitif et la
+                            performance
+                            technique. Mon objectif est de transformer des concepts créatifs en interfaces interactives
+                            fluides, tout en garantissant un code propre, une accessibilité universelle et une
+                            optimisation
+                            rigoureuse. Je crois fermement qu'une expérience utilisateur réussie commence par une
+                            architecture solide et une attention particulière portée aux détails
+                        </p>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <ul>
+                                    <li><strong>Nom :</strong> SALIFOU MOHAMED</li>
+                                    <li><strong>Prénom :</strong> Samira</li>
+                                    <li><strong>Age :</strong> 26</li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- skills section-->
+        <section id="skills">
+            <div class="container">
+                <h2 class="text-center">Mes compétences</h2>
+            </div>
+            <!--code de samira -->
+            <section id="skills" class="container">
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>Conception & Design</h3>
+                        <ul>
+                            <li><strong>Lecture de maquettes :</strong> Analyse et intégration fidèle (Pixel Perfect)
+                                depuis
+                                <strong>Figma</strong>
+                            </li>
+                            <li><strong>Responsive Design :</strong> Adaptabilité totale sur mobile, tablette et desktop
+                                (Media Queries, Flexbox, Grid).</li>
+                            <li><strong>UI/UX :</strong> Sensibilité à l'ergonomie et à la hiérarchie visuelle.</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Développement</h3>
+                        <ul>
+                            <li><strong>Langages :</strong> HTML5 sémantique, CSS3 (Sass/SCSS) et JavaScript.</li>
+                            <li><strong>Frameworks :</strong> Développement de composants réutilisables avec
+                                <strong>React</strong>.
+                            </li>
+                            <li><strong>API :</strong> Connexion de l'interface avec des données dynamiques (Fetch,
+                                Axios).
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fas fa-vial"></i>
+                        <h3>Qualité & Debugging</h3>
+                        <ul>
+                            <li><strong>Debugging :</strong> Résolution de bugs logiques et d'affichage via les
+                                DevTools.
+                            </li>
+                            <li><strong>Accessibilité (A11y) :</strong> Mise en conformité WCAG pour un web inclusif.
+                            </li>
+                            <li><strong>Optimisation :</strong> Amélioration des performances (Lighthouse) et du SEO
+                                technique.</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fas fa-tools"></i>
+                        <h3>Outils & Workflow</h3>
+                        <ul>
+                            <li><strong>Versionnage :</strong> Gestion de projet avec <strong>Git & GitHub</strong>.
+                            </li>
+                            <li><strong>Déploiement :</strong> Mise en ligne via GitHub Pages.</li>
+                            <li><strong>Environnement :</strong> VS Code, npm/yarn, terminaux.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+        </section>
+
+        <!-- portfolio section-->
+        <section id="portfolio">
+            <div class="container mt-3">
+                <h2 class="text-center">Mes projets</h2>
+                <div class="skills-links">
+                    <!--  Retrouvez mes projets complets sur GitHub-->
+                    <div class="links-container">
+                        <a href="https://github.com/samiradkm/kasa" target="_blank" class="skill-link-item">
+                            <i class="fab fa-github"></i> Projet Kasa (React)
+                        </a>
+                        <a href="https://github.com/samiradkm/printit" target="_blank" class="skill-link-item">
+                            <i class="fab fa-github"></i> Projet Print-it (JS)
+                        </a>
+                    </div>
+                </div>
+        </section>
+
+        <!-- contact section-->
+        <section id="contact">
+            <div class="container mt-3 contactContent">
+                <h2 class="text-center">Contactez-moi</h2>
+                <div class="row">
+                    <div class="col-lg-4 mt-4 contactColumn">
+                        <i class="fa-solid fa-phone fa-4x"></i>
+                        <h3>Téléphone</h3>
+                        <p>07-53-11-54-63</p>
+                    </div>
+                    <div class="col-lg-4 mt-4 contactColumn">
+                        <i class="fa-regular fa-envelope fa-4x"></i>
+                        <h3>Adresse email</h3>
+                        <p>samirasalifoumohamed@gmail.com</p>
+                    </div>
+                    <div class="col-lg-4 mt-4 contactColumn">
+                        <i class="fa-brands fa-linkedin-in fa-4x"></i>
+                        <h3>LinkedIn</h3>
+                        <p>Samira SALIFOU MOHAMED</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
