@@ -1,18 +1,18 @@
 [
     {
-        "image": "image1.png",
+        "image": "booki.webp",
         "title": "Booki",
         "text": "Plateforme de réservation d'hôtels permettant aux utilisateurs de chercher et réserver facilement des hébergements selon leurs préférences et budget. Projet pas encore disponible en public",
-        "link": "#"
+        "link": "https://github.com/samiradkm/booki-starter"
     },
     {
-        "image": "image2.png",
+        "image": "printit.webp",
         "title": "Printit",
         "text": "Site d'imprimerie proposant des services d'impression professionnels pour particuliers et entreprises avec devis personnalisés.",
         "link": "https://samiradkm.github.io/printit/"
     },
     {
-        "image": "image3.png",
+        "image": "kasa.webp",
         "title": "Kasa",
         "text": "Plateforme de location immobilière facilitant la mise en relation entre propriétaires et locataires pour des logements à court ou long terme.",
         "link": "https://github.com/samiradkm/kasa"
